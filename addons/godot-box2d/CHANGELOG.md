@@ -1,6 +1,31 @@
 # Changelog
 
-## [v0.5.3](https://github.com/godot-box2d/godot-box2d/releases/tag/v0.5.2)
+## [v0.8](https://github.com/godot-box2d/godot-box2d/releases/tag/v0.8)
+
+- Fix [Character body 2d conveyer belt not working](https://github.com/appsinacup/godot-box2d/issues/58)
+- Fix [if the collision shape of character body2d is moved, test_body_moved doesnt work propertly](https://github.com/appsinacup/godot-box2d/issues/55)
+- Fix [Add limits and motor to pin joint](https://github.com/appsinacup/godot-box2d/issues/52).
+- Fix the character controller margin to work.
+- Fixes [SegmentShape2D seems unsupported](https://github.com/appsinacup/godot-box2d/issues/47).
+- Fixes [Shapecast2D node does not detect collisions](https://github.com/appsinacup/godot-box2d/issues/48).
+
+## [v0.7](https://github.com/godot-box2d/godot-box2d/releases/tag/v0.7)
+
+- [Zero friction physics material does not simulate](https://github.com/appsinacup/godot-box2d/issues/40)
+- [Applying impulse ignores rigidbody mass and introduces a ton of angular motion.](https://github.com/appsinacup/godot-box2d/issues/41)
+- Revert mass is density change. Fixes [Constant Torque and Impulse Torque are applied differently](https://github.com/appsinacup/godot-box2d/issues/28)
+
+## [v0.6](https://github.com/godot-box2d/godot-box2d/releases/tag/v0.6)
+
+- Fix Polygon Skin not letting objects fall through small gaps. Also fix inside out polygons bug.
+- Fix [Fix One way Collision for CharacterBody](https://github.com/appsinacup/godot-box2d/issues/33)
+
+## [v0.5.4](https://github.com/godot-box2d/godot-box2d/releases/tag/v0.5.4)
+
+- Fix for [Read project global configurations](https://github.com/appsinacup/godot-box2d/issues/26)
+- Fix for [Fix One Way Collision for rigidbodies](https://github.com/appsinacup/godot-box2d/issues/27)
+
+## [v0.5.3](https://github.com/godot-box2d/godot-box2d/releases/tag/v0.5.3)
 
 - Fix for [godot-box2d/issues/22](https://github.com/godot-box2d/godot-box2d/issues/22)
 - Fix unsafe and safe fraction bounding(between 0 and 1)
